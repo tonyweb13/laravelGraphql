@@ -1,11 +1,14 @@
 
-# composer  install
+# Laravel GraphQL - BackEnd
 
-# php artisan migrate
+`composer install`
 
-# php artisan db:seed --class=DatabaseSeeder
+`php artisan migrate`
 
-# POST: http://127.0.0.1:8000/graphql
+`php artisan db:seed --class=DatabaseSeeder`
+
+
+`POST: http://127.0.0.1:8000/graphql`
 
 ## Create Task:
 {
@@ -37,4 +40,4 @@
   "query": "mutation { logout }"
 }
 
-# php artisan serve
+`php artisan serve`
